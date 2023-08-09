@@ -1,0 +1,10 @@
+---
+  version: "3"
+  services:
+    mcserver:
+      build: ./
+      volumes:
+        - ./MC-FOLDER:/MC-FOLDER 
+      ports:
+        - "25565:25566"
+      
