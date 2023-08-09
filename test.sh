@@ -2,4 +2,4 @@
 
 cd /MC-FOLDER
 echo "this is a test" >> ./test.txt
-./srvstart.sh
+/MC-FOLDER/srvstart.sh
